@@ -11,7 +11,7 @@ Backstory: Your client is expecting a baby soon.  However, he is not sure what t
 ## Answer Question 1 (a,b,c,d)
 
 ```{r names}
-setwd("F:\\My_Docs\\univer\\DataScience\\unit5\\HW")
+setwd("F:\\My_Docs\\univer\\DataScience\\git\\Home_Work5\\HW5")
 df = read.delim("yob2016.txt",header = FALSE,sep = ";",col.names=c("Name","Gender","Amount"))
 head(df)
 summary(df)
@@ -54,6 +54,9 @@ barplot(Popular_girls_names$Total,names.arg=Popular_girls_names$Name,
         main = "TOP10 Most Popular Girls Names 2015-2016",
         horiz=FALSE,col='darkblue')
 
-setwd("F:\\My_Docs\\univer\\DataScience\\unit5\\HW")
 write.csv(subset(Popular_girls_names, select=c("Name","Total")),file = "Popular_Girls_Names_2015-2016.csv",row.names = FALSE)
 ```
+
+
+## GitHub Link
+https://github.com/vbriker/HW5
