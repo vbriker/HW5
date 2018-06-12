@@ -13,7 +13,10 @@ R-filename : HomeWork-5.R
 
 The program analyzes most popular girl names in 2015 and 2016 years.
 
--- Setup worikng directory --
+## Code explanation 
+
+```Setup worikng directory
+```
 setwd("F:\\My_Docs\\univer\\DataScience\\git\\Home_Work5\\HW5")
 
 -- Read the raw 2016 file into csv format --
