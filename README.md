@@ -15,11 +15,14 @@ The program analyzes most popular girl names in 2015 and 2016 years.
 
 ## Code explanation 
 
-```Setup worikng directory
+```
+Setup worikng directory
 ```
 setwd("F:\\My_Docs\\univer\\DataScience\\git\\Home_Work5\\HW5")
 
--- Read the raw 2016 file into csv format --
+```
+Read the raw 2016 file into csv format
+```
 df = read.delim("yob2016.txt",header = FALSE,sep = ";",col.names=c("Name","Gender","Amount"))
 
 -- Output details regarding 2015 table
