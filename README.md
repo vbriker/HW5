@@ -60,11 +60,15 @@ final$Total=final$Amount.x+final$Amount.y
 nrow(final)
 final=final[order(final$Total),]
 
--- Show top 10 names --
+```
+Show top 10 names
+```
 TOP10_Popular_names=tail(final,10)
 TOP10_Popular_names
 
--- Show top 10 girls names
+```
+Show top 10 girls names
+```
 female_names=subset(final, Gender.x=="F" | Gender.y=="F")
 Popular_girls_names=tail(female_names[order(female_names$Total),],10)   
 Popular_girls_names
